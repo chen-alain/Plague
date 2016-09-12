@@ -1,0 +1,34 @@
+﻿Build started 5/19/2014 9:22:47 PM.
+     1>Project "E:\AL Files\AL School\Rock Bridge\11th Grade\2014Sping\Advanced C++\Plague Final\Plague\Plague.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "E:\AL Files\AL School\Rock Bridge\11th Grade\2014Sping\Advanced C++\Plague Final\Release\".
+       InitializeBuildStatus:
+         Creating "Release\Plague.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\SFML-2.1\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D SFML_STATIC /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\Plague.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\SFML-2.1\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D SFML_STATIC /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\Plague.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Country.cpp Disease.cpp Plague.cpp World.cpp
+         Country.cpp
+         Disease.cpp
+         Plague.cpp
+     1>Plague.cpp(129): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         World.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\AL Files\AL School\Rock Bridge\11th Grade\2014Sping\Advanced C++\Plague Final\Release\Plague.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\SFML-2.1\lib" "sfml-graphics-s.lib" "sfml-system-s.lib" "sfml-window-s.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Plague.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\AL Files\AL School\Rock Bridge\11th Grade\2014Sping\Advanced C++\Plague Final\Release\Plague.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\AL Files\AL School\Rock Bridge\11th Grade\2014Sping\Advanced C++\Plague Final\Release\Plague.lib" /MACHINE:X86 Release\Country.obj
+         Release\Disease.obj
+         Release\Plague.obj
+         Release\stdafx.obj
+         Release\World.obj
+         Generating code
+         Finished generating code
+         Plague.vcxproj -> E:\AL Files\AL School\Rock Bridge\11th Grade\2014Sping\Advanced C++\Plague Final\Release\Plague.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\AL Files\AL School\Rock Bridge\11th Grade\2014Sping\Advanced C++\Plague Final\Release\Plague.exe;#1" /manifest Release\Plague.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\Plague.unsuccessfulbuild".
+         Touching "Release\Plague.lastbuildstate".
+     1>Done Building Project "E:\AL Files\AL School\Rock Bridge\11th Grade\2014Sping\Advanced C++\Plague Final\Plague\Plague.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.09
