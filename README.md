@@ -1,0 +1,2 @@
+# Plague
+A disease Simulator
